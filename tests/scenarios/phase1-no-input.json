@@ -1,0 +1,13 @@
+{
+  "name": "Phase 1: No input means player stays at origin",
+  "seed": 42,
+  "phase": 1,
+  "ticks": 120,
+  "inputs": [],
+  "expect": [
+    ["player.x", 0],
+    ["player.z", 0],
+    ["firefliesCollected", 0],
+    ["lanternsLit", 0]
+  ]
+}

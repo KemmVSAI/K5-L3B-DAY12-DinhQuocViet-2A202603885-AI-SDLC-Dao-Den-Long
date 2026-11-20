@@ -1,0 +1,13 @@
+{
+  "name": "dao-den-long",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "3D third-person game: collect fireflies to light lanterns on a dark island.",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "node headless/run-all.js",
+    "test:phase1": "node headless/run.js tests/scenarios/phase1-collect.json",
+    "test:phase2": "node headless/run.js tests/scenarios/phase2-shadows.json",
+    "test:phase3": "node headless/run.js tests/scenarios/phase3-respawn.json"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Phase 1: Player moves and collects fireflies",
+  "seed": 42,
+  "phase": 1,
+  "ticks": 600,
+  "inputs": [
+    { "tick": 0, "move": { "x": 1, "z": 0 } },
+    { "tick": 120, "move": { "x": 0, "z": 1 } },
+    { "tick": 240, "move": { "x": -1, "z": 0 } },
+    { "tick": 360, "move": { "x": 0, "z": -1 } }
+  ],
+  "expect": [
+    ["status", "playing"],
+    ["firefliesTotal", 20],
+    ["lanternsTotal", 5]
+  ]
+}

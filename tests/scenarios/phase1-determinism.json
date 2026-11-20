@@ -1,0 +1,14 @@
+{
+  "name": "Phase 1: Same seed produces same output",
+  "seed": 123,
+  "phase": 1,
+  "ticks": 60,
+  "inputs": [
+    { "tick": 0, "move": { "x": 0, "z": 1 } }
+  ],
+  "expect": [
+    ["status", "playing"],
+    ["player.x", 0],
+    ["player.z", 5]
+  ]
+}
