@@ -1,0 +1,14 @@
+{
+  "name": "Phase 2: Shadows exist and can be detected",
+  "seed": 99,
+  "phase": 2,
+  "ticks": 300,
+  "inputs": [
+    { "tick": 0, "move": { "x": 1, "z": 0 } }
+  ],
+  "expect": [
+    ["status", "playing"],
+    ["firefliesTotal", 20],
+    ["lanternsTotal", 5]
+  ]
+}

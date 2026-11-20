@@ -1,0 +1,12 @@
+{
+  "name": "Phase 2: Light burst can be triggered",
+  "seed": 77,
+  "phase": 2,
+  "ticks": 120,
+  "inputs": [
+    { "tick": 0, "move": { "x": 0, "z": 0 }, "burst": true }
+  ],
+  "expect": [
+    ["status", "playing"]
+  ]
+}
