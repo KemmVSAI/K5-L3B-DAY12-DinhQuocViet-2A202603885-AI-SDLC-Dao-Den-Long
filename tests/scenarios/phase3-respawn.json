@@ -1,0 +1,13 @@
+{
+  "name": "Phase 3: Fireflies respawn after collection",
+  "seed": 55,
+  "phase": 3,
+  "ticks": 600,
+  "inputs": [
+    { "tick": 0, "move": { "x": 1, "z": 0 } }
+  ],
+  "expect": [
+    ["status", "playing"],
+    ["firefliesTotal", 20]
+  ]
+}
